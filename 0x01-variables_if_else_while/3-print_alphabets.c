@@ -1,8 +1,8 @@
 #include"stdio.h"
 /**
- * main - Prints both kinds of alphabet.
- *
- * Return: Always 0 (Success)
+* main - Prints both kinds of alphabet.
+*
+* Return: Always 0 (Success)
 */
 int main(void)
 {
