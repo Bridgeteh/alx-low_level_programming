@@ -6,10 +6,10 @@
 */
 int main(void)
 {
-	char bridg [] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	char bridg[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	int i;
 	int size;
-	
+
 	size = sizeof(bridg) / sizeof(bridg[0]) - 1;
 	for (i = 0; i < size; i++)
 		putchar(bridg[i]);
